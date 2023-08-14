@@ -8,12 +8,10 @@ int main(void)
 char letter = 'a';
 while (letter >= 'a' && letter <= 'z')
 {
-putchar(letter);
-++letter;
-}
-letter = 'A';
-while (letter >= 'A' && letter <= 'Z')
+if (letter == 'q' || letter == 'e')
 {
+continue;
+}
 putchar(letter);
 ++letter;
 }
