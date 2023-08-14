@@ -9,6 +9,7 @@ char letter = 'a';
 while (letter >= 'a' && letter <= 'z')
 {
 printf("%c", letter);
+letter++;
 }
 return (0);
 }
