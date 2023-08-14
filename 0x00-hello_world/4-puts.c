@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 *main - main function of task 4 program
+*Return: 0 as requested
 */
 int main(void)
 {
