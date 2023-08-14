@@ -9,6 +9,8 @@ int num = 0;
 while (num >= 0 && num <= 9)
 {
 putchar('0' + num);
+if (num == 9)
+break;
 putchar(',');
 putchar(' ');
 num++;
