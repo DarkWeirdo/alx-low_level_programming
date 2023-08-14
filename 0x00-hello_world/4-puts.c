@@ -4,9 +4,6 @@ int main(void)
 *Main function for the whole thing
 */
 {
-char Str1[] = "Programming is like building a multilingual puzzle";
-char Str2[] = '"';
-puts(Str2);
-puts(Str1);
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
