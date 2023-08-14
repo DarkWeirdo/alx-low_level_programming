@@ -11,5 +11,6 @@ while (letter >= 'a' && letter <= 'z')
 printf("%c", letter);
 ++letter;
 }
+printf("\n");
 return (0);
 }
