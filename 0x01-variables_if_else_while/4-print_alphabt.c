@@ -9,9 +9,7 @@ char letter = 'a';
 while (letter >= 'a' && letter <= 'z')
 {
 if (letter == 'q' || letter == 'e')
-{
 continue;
-}
 putchar(letter);
 ++letter;
 }
