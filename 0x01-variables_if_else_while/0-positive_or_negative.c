@@ -3,6 +3,10 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+*main - main function of task 4 program
+*Return: 0 as requested
+*/
 int main(void)
 {
 	int n;
