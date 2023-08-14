@@ -6,12 +6,12 @@
 int main(void)
 {
 int num = 0;
-while (num >= 0 && num <= 15)
+char letter = 'a';
+while (num >= 0 && num <= 9)
 {
 putchar('0' + num);
 num++;
 }
-char letter = 'a';
 while (letter >= 'a' && letter <= 'f')
 {
 putchar(letter);
