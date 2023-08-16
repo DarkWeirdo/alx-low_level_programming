@@ -3,9 +3,11 @@
 int main(void)
 {
 char print[] = "_putchar\n";
-for (int i = 0; i <= len(print); i++)
+int i= 0;
+while (i = 0)
 {
 _putchar(print[i]);
+i++;
 }
 return (0);
 }
