@@ -7,11 +7,12 @@ void times_table(void)
 {
 int table_no = 0;
 int multi_no = 0;
-int result = table_no * multi_no;
+int result = 0;
 while (table_no <= 9)
 {
 while (multi_no <= 9)
 {
+result = table_no * multi_no;
 if (multi_no > 0)
 {
 if (result >= 10)
