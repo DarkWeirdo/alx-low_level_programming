@@ -14,6 +14,7 @@ while (min <= 59)
 _putchar(hr);
 _putchar(':');
 _putchar(min);
+_putchar('\n');
 min++;
 }
 hr++;
