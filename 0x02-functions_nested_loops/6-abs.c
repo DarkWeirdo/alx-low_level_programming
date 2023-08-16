@@ -6,19 +6,18 @@
 *_putchar - prints '+', '=', or '0'
 * Return: 1 if positive, 0 when zero, -1 when negative
 */
-int _abs(int n)
+int _abs(n)
 {
 if (n > 0)
 {
-_putchar(n);
+return(n);
 }
 else if (n < 0)
 {
-_putchar(n * -1);
+return(n * (-1));
 }
 else
 {
-_putchar('0');
-}
 return(0);
+}
 }
