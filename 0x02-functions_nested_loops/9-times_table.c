@@ -29,6 +29,7 @@ _putchar(' ');
 multi_no++;
 if (multi_no > 9)
 {
+multi_no = 0;
 _putchar('\n');
 break;
 }
