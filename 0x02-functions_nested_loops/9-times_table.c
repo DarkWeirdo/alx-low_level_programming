@@ -13,6 +13,7 @@ for (multi_no = 1; multi_no < 9; multi_no++)
 {
 _putchar(',');
 _putchar(' ');
+result = table_no * multi_no;
 if (result <= 9)
 _putchar(' ');
 else
