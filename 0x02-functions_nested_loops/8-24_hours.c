@@ -11,11 +11,11 @@ while (hr <= 23)
 {
 while (min <= 59)
 {
-_putchar('0'+(hr/10));
-_putchar('0'+(hr%10));
+_putchar('0' + (hr / 10));
+_putchar('0' + (hr % 10));
 _putchar(':');
-_putchar('0'+(min/10));
-_putchar('0'+(min%10));
+_putchar('0' + (min / 10));
+_putchar('0' + (min % 10));
 _putchar('\n');
 min++;
 if (min > 59)
