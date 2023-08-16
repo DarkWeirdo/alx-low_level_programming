@@ -15,8 +15,8 @@ while (multi_no <= 9)
 result = table_no * multi_no;
 if (result >= 10)
 {
-_putchar('0' + (result) / 10);
-_putchar('0' + (result) % 10);
+_putchar('0' + (result / 10));
+_putchar('0' + (result % 10));
 _putchar(',');
 _putchar(' ');
 }
