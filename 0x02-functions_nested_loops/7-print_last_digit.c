@@ -11,5 +11,5 @@ if (n < 0)
 n = (unsigned int)n;
 n = n % 10;
 _putchar('0' + n);
-return ('0' + n);
+return (n);
 }
