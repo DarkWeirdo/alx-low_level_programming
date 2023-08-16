@@ -1,13 +1,17 @@
 #include "main.h"
-
+/**
+*main - main function of task
+*Return: 0 as requested
+*/
 int main(void)
 {
-char print[] = "_putchar\n";
-int i= 0;
-while (i = 0)
-{
-_putchar(print[i]);
-i++;
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 return (0);
 }
