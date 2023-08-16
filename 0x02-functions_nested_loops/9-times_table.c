@@ -28,8 +28,10 @@ _putchar(' ');
 }
 multi_no++;
 if (multi_no > 9)
+{
 _putchar('\n');
 break;
+}
 }
 table_no++;
 if (table_no > 9)
