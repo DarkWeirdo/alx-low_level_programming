@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
-*_isalpha - checks if the input is a letter 
+*_isalpha - checks if the input is a letter
 * @c: input to be checked
 * Return: 1 if a letter, 0 when otherwise
 */
