@@ -7,6 +7,10 @@
 */
 int print_last_digit(int n)
 {
+if (n < 0)
+{
+n = (unsigned int)n;
+}
 int d = n % 10;
 _putchar('0' + d);
 return (d);
