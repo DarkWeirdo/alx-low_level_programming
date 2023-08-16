@@ -1,10 +1,15 @@
 #include "main.h"
+#include <unistd.h>
 /**
 *main - main function of task
 *Return: 0 as requested
 */
-int main(void)
+void print_alphabet(void)
 {
-print_alphabet();
-return (0);
+char letter = 'a';
+while (letter >= 'a' && letter <= 'z')
+{
+_putchar(letter);
+++letter;
+}
 }
