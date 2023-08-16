@@ -6,7 +6,7 @@
 *_putchar - prints '+', '=', or '0'
 * Return: 1 if positive, 0 when zero, -1 when negative
 */
-int _abs(n)
+int _abs(int n)
 {
 if (n > 0)
 {
