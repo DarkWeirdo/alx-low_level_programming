@@ -20,7 +20,7 @@ else if (b > a && (a > c || b > c))
 {
 largest = b;
 }
-else if (a == b && a == c && b == c)
+else if (a == b && (a == c && b == c))
 {
 printf("All three numbers are equal.");
 }
