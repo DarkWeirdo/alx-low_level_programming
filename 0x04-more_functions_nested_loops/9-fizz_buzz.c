@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
 * main - prints numbers 1 - 100 and a new line
@@ -33,5 +32,6 @@ printf("%d", count);
 putchar(' ');
 }
 printf("\n");
+
 return (0);
 }
