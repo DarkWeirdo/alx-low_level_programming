@@ -18,7 +18,7 @@ printf("Fizz");
 }
 else if (count % 5 == 0 && count % 3 != 0)
 {
-printf("buzz");
+printf("Buzz");
 }
 else if (count % 3 == 0 && count % 5 == 0)
 {
