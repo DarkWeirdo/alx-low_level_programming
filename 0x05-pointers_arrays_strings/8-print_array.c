@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
 * print_array - function to print number of elements of an array of integers
 * @a: array input
