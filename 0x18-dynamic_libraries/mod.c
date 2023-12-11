@@ -1,20 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
-/**
-*
-*/
-void mod(int a, int b, int *result) {
+#include "main.h"
+int mod(int a, int b)
+{
 
 if (b == 0)
 {
 
 printf("Error: modulo by zero\n");
 
-return;
+return (1);
 
 }
 
-*result = a % b;
+return (a % b);
 
 }

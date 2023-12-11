@@ -20,9 +20,8 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
-void add(int, int, int*);
-void sub(int, int, int*);
-void mul(int, int, int*);
-void div(int, int, int*);
-void mod(int, int, int*);
+int add(int a, int b);
+int sub(int a, int b);
+int mul(int a, int b);
+int mod(int a, int b);
 #endif
