@@ -70,3 +70,12 @@ In this Makefile:
 To use this Makefile, save it as `4-Makefile` in your `0x1C. Makefiles` directory. When you run `make all -f   4-Makefile`, it will compile only the updated source files with the specified compiler flags and link them into the `school` executable. The additional rules allow you to clean up the build artifacts and force a recompilation as needed.
 
 The `clean`, `oclean`, `fclean`, and `re` rules are designed to never fail by using the `-f` option with `rm`, which ignores nonexistent files and arguments. This ensures that the Makefile can be run multiple times without errors.
+
+### Task 5:
+To create a Python function `island_perimeter` that calculates the perimeter of an island in a grid, you can follow these steps:
+
+1. Define the function `island_perimeter` that takes a `grid` as an argument.
+2. Iterate over each cell in the grid.
+3. For each land cell (represented by `1`), check its neighbors (top, bottom, left, and right).
+4. If a neighbor is a water cell (represented by `0`), increment a counter for the perimeter.
+5. Return the total count of the perimeter.
