@@ -49,3 +49,24 @@ In this Makefile:
 To use this Makefile, save it as `3-Makefile` in your `0x1C. Makefiles` directory. When you run `make -f 3-Makefile`, it will compile only the updated source files and link them into the `school` executable. The additional rules allow you to clean up the build artifacts and force a recompilation as needed.
 
 The `clean, oclean, fclean`, and `re` rules are designed to never fail by using the `-f` option with `rm`, which ignores nonexistent files and arguments. This ensures that the Makefile can be run multiple times without errors.
+
+### Task 4:
+In this Makefile:
+- `CC` is the variable for the compiler, which is `gcc`.
+- `SRC` is the variable for the source files, which are `main.c` and `school.c`.
+- `OBJ` is the variable for the object files, which are derived from the source files by replacing the `.c` extension with `.o`.
+- `NAME` is the variable for the name of the executable, which is `school`.
+- `RM` is the variable for the program to delete files, which is `rm -f`.
+- `CFLAGS` is the variable for the compiler flags, which include `-Wall`, `-Werror`, `-Wextra`, and `-pedantic`.
+- The `all` rule depends on the `$(NAME)` target, which in turn depends on the object files.
+- The `$(NAME)` target links the object files into the executable with the specified compiler flags.
+- The `%.o: %.c` rule compiles each `.c` file into a corresponding `.o` file with the specified compiler flags.
+- The `clean` rule deletes all Emacs and Vim temporary files along with the executable.
+- The `oclean` rule deletes the object files.
+- The `fclean` rule calls both `clean` and `oclean` to delete all temporary files, the executable, and the object files.
+- The `re` rule forces recompilation of all source files by first deleting the object files and then calling `all`.
+- The `.PHONY` line is used to specify that `all`, `clean`, `oclean`, `fclean`, and `re` are not files but rather phony targets.
+
+To use this Makefile, save it as `4-Makefile` in your `0x1C. Makefiles` directory. When you run `make all -f   4-Makefile`, it will compile only the updated source files with the specified compiler flags and link them into the `school` executable. The additional rules allow you to clean up the build artifacts and force a recompilation as needed.
+
+The `clean`, `oclean`, `fclean`, and `re` rules are designed to never fail by using the `-f` option with `rm`, which ignores nonexistent files and arguments. This ensures that the Makefile can be run multiple times without errors.
